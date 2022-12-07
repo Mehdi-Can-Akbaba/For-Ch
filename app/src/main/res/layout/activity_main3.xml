@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/web003"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:background="@drawable/web003"
+        android:fontFamily="@font/aladin2"
+        android:text="Baştan Başla"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+
+         />
+
+    <ImageView
+        android:id="@+id/altı"
+        android:layout_width="163dp"
+        android:layout_height="228dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="-35dp"
+        android:src="@drawable/abcd6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <ImageView
+        android:id="@+id/sfr"
+        android:layout_width="196dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="-28dp"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/sfr0" />
+
+    <ImageView
+        android:id="@+id/bir"
+        android:layout_width="203dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bir" />
+
+    <ImageView
+        android:id="@+id/iki"
+        android:layout_width="185dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="-28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/iki" />
+
+    <ImageView
+        android:id="@+id/uc"
+        android:layout_width="228dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/uc" />
+
+    <ImageView
+        android:id="@+id/dort"
+        android:layout_width="183dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="-22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/dort" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+
+        />
+
+    <ImageView
+        android:id="@+id/bes"
+        android:layout_width="203dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216"
+        app:srcCompat="@drawable/bes" />
+
+    <ImageView
+        android:id="@+id/yedi"
+        android:layout_width="216dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginBottom="-30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914"
+        app:srcCompat="@drawable/yedi" />
+
+    <ImageView
+        android:id="@+id/dokuz"
+        android:layout_width="209dp"
+        android:layout_height="269dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="-30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/dokuz" />
+
+    <ImageView
+        android:id="@+id/sekiz"
+        android:layout_width="212dp"
+        android:layout_height="222dp"
+        android:layout_marginBottom="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/sekiz" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="381dp"
+        android:layout_height="84dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="casual"
+        android:text="Rakamlar"
+        android:textAlignment="center"
+        android:textColor="@color/buttonColor"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="346dp"
+        android:layout_height="87dp"
+        android:background="@drawable/a0952"
+        android:fontFamily="serif"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="139dp"
+        android:layout_height="55dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="154dp"
+        android:layout_height="50dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="158dp"
+        android:layout_height="54dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="142dp"
+        android:layout_height="53dp"
+        android:background="@drawable/web_1920__2"
+        android:fontFamily="@font/aladin2"
+        android:text="Sonraki"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="120dp"
+        android:layout_height="88dp"
+        android:background="@drawable/buttonarkaplan"
+        android:fontFamily="@font/almendra"
+        android:text="Ana Sayfa"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
