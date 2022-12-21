@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E35D5D"
+    android:backgroundTint="#E35D5D"
+    android:backgroundTintMode="src_in"
+    android:onClick="@string/app_name"
+    android:scrollbarTrackHorizontal="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonka"
+        android:layout_width="193dp"
+        android:layout_height="80dp"
+        android:background="@drawable/background"
+        android:fontFamily="serif"
+        android:text="KAYIT OL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="188dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/email1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/email1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49"
+        app:srcCompat="@drawable/_56" />
+
+    <EditText
+        android:id="@+id/sifre1"
+        android:layout_width="216dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="90dp"
+        android:drawableLeft="@drawable/icon2"
+        android:ems="10"
+        android:hint=" Şifre"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/buttonka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email1" />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="45dp"
+        android:drawableLeft="@drawable/icon"
+        android:ems="10"
+        android:hint="  E-posta"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/sifre1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
