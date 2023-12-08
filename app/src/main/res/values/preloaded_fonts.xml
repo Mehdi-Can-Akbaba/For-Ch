@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/akronim</item>
+        <item>@font/aladin</item>
+        <item>@font/almendra</item>
+        <item>@font/antic</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/artifika</item>
+        <item>@font/felipa</item>
+        <item>@font/keania_one</item>
+        <item>@font/syne_tactile</item>
+    </array>
+</resources>
